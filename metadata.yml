@@ -32,3 +32,6 @@ Publication: https://arxiv.org/abs/2303.03363
 Source Code: https://github.com/ml-jku/clamp
 License: GPL-3.0-or-later
 Incorporation Date: '2025-08-26'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3l5f.zip
+Model Size: 1273.0
+Environment Size: 6840.0
