@@ -2,8 +2,7 @@
 
 CLAMP is a model trained on molecule-assay pairs, using assay descriptions as text. The current model returns the CLAMP embedding, trained on ChEMBL data. Therefore, contrastive learning is used to learn chemical representations with awareness of a large-scale bioactivity dataset.
 
-This model was incorporated on 2025-08-26.
-
+This model was incorporated on 2025-08-26.Last packaged on 2025-11-29.
 
 ## Information
 ### Identifiers
@@ -44,12 +43,19 @@ _10 of 768 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3l5f](https://hub.docker.com/r/ersiliaos/eos3l5f)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3l5f.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3l5f.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1273`
 - **Environment Size (Mb):** `6840`
+- **Image Size (Mb):** `8674.73`
 
+**Computational Performance (seconds):**
+- 10 inputs: `30.14`
+- 100 inputs: `20.34`
+- 10000 inputs: `206.77`
 
 ### References
 - **Source Code**: [https://github.com/ml-jku/clamp](https://github.com/ml-jku/clamp)
