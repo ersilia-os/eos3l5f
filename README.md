@@ -2,6 +2,7 @@
 
 CLAMP is a model trained on molecule-assay pairs, using assay descriptions as text. The current model returns the CLAMP embedding, trained on ChEMBL data. Therefore, contrastive learning is used to learn chemical representations with awareness of a large-scale bioactivity dataset.
 
+This model was incorporated on 2025-08-26.
 
 
 ## Information
@@ -43,8 +44,11 @@ _10 of 768 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3l5f.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3l5f.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1273`
+- **Environment Size (Mb):** `6840`
 
 
 ### References
