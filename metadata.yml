@@ -39,7 +39,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos3l5f
 Docker Architecture:
   - AMD64
   - ARM64
-Model Size: 1273.0
+Model Size: 637.0
 Environment Size: 6840.0
 Image Size: 8674.73
 Computational Performance 1: 30.14
