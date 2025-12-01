@@ -2,7 +2,7 @@
 
 CLAMP is a model trained on molecule-assay pairs, using assay descriptions as text. The current model returns the CLAMP embedding, trained on ChEMBL data. Therefore, contrastive learning is used to learn chemical representations with awareness of a large-scale bioactivity dataset.
 
-This model was incorporated on 2025-08-26.Last packaged on 2025-11-29.
+This model was incorporated on 2025-08-26.Last packaged on 2025-12-01.
 
 ## Information
 ### Identifiers
@@ -53,9 +53,9 @@ _10 of 768 columns are shown_
 - **Image Size (Mb):** `8674.73`
 
 **Computational Performance (seconds):**
-- 10 inputs: `30.14`
-- 100 inputs: `20.34`
-- 10000 inputs: `206.77`
+- 10 inputs: `30.68`
+- 100 inputs: `20.79`
+- 10000 inputs: `212.82`
 
 ### References
 - **Source Code**: [https://github.com/ml-jku/clamp](https://github.com/ml-jku/clamp)
