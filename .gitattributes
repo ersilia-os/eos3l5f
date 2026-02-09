@@ -1,1 +1,1 @@
-model/checkpoints/clamp_clip/checkpoint.pt filter=lfs diff=lfs merge=lfs -text
+model/checkpoints/clamp_clip/compound_encoder.onnx filter=lfs diff=lfs merge=lfs -text

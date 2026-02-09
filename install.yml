@@ -1,7 +1,12 @@
 python: "3.10"
 commands:
-    - ["pip", "git+https://github.com/ml-jku/clamp"]
-    - ["pip", "torchvision", "0.19.1"]
-    - ["pip", "torch", "2.4.1"]
+    - ["pip", "swifter", "1.4.0"]
+    - ["pip", "git+https://github.com/ml-jku/mhn-react.git"]
     - ["pip", "numpy", "1.26.4"]
     - ["pip", "ersilia-pack-utils", "0.1.5"]
+    - ["pip", "tqdm", "4.67.3"]
+    - ["pip", "rdkit", "2025.9.4"]
+    - ["pip", "scipy", "1.15.3"]
+    - ["pip", "scikit-learn", "1.7.2"]
+    - ["pip", "onnx", "1.20.1"]
+    - ["pip", "onnxruntime", "1.23.2"]
