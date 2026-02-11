@@ -32,8 +32,8 @@ Publication: https://arxiv.org/abs/2303.03363
 Source Code: https://github.com/ml-jku/clamp
 License: GPL-3.0-or-later
 Incorporation Date: '2025-08-26'
-Last Packaging Date: '2026-02-09'
-Release: v1.1.2
+Last Packaging Date: '2026-02-11'
+Release: v1.1.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3l5f.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3l5f
 Docker Architecture:
@@ -41,9 +41,9 @@ Docker Architecture:
   - ARM64
 Model Size: 167.0
 Environment Size: 1100.0
-Image Size: 1566.13
-Computational Performance 1: 30.92
-Computational Performance 2: 20.61
-Computational Performance 3: 21.04
-Computational Performance 4: 40.65
-Computational Performance 5: 129.92
+Image Size: 1566.14
+Computational Performance 1: 29.39
+Computational Performance 2: 19.04
+Computational Performance 3: 19.4
+Computational Performance 4: 37.05
+Computational Performance 5: 116.75
