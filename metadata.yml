@@ -33,7 +33,7 @@ Source Code: https://github.com/ml-jku/clamp
 License: GPL-3.0-or-later
 Incorporation Date: '2025-08-26'
 Last Packaging Date: '2026-02-11'
-Release: v1.1.1
+Release: v1.2.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3l5f.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos3l5f
 Docker Architecture:
