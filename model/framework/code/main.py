@@ -4,12 +4,12 @@ import json
 import numpy as np
 import onnxruntime as ort
 from ersilia_pack_utils.core import read_smiles, write_out
-from mhnreact.molutils import convert_smiles_to_fp
 
+root = os.path.dirname(os.path.abspath(__file__))
+from utils import convert_smiles_to_fp
 input_file = sys.argv[1]
 output_file = sys.argv[2]
 
-root = os.path.dirname(os.path.abspath(__file__))
 ckpt_path = os.path.join(root, "..", "..", "checkpoints", "clamp_clip")
 hp_path = os.path.join(ckpt_path, "hp.json")
 onnx_path = os.path.join(ckpt_path, "compound_encoder.onnx")
