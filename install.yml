@@ -1,7 +1,0 @@
-python: "3.10"
-commands:
-    - ["pip", "numpy", "1.26.4"]
-    - ["pip", "ersilia-pack-utils", "0.1.5"]
-    - ["pip", "rdkit", "2025.9.4"]
-    - ["pip", "onnx", "1.20.1"]
-    - ["pip", "onnxruntime", "1.23.2"]
