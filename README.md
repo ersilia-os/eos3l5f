@@ -59,7 +59,7 @@ _10 of 768 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/ml-jku/clamp](https://github.com/ml-jku/clamp)
-- **Publication**: [https://arxiv.org/abs/2303.03363](https://arxiv.org/abs/2303.03363)
+- **Publication**: [https://doi.org/10.48550/arXiv.2303.03363](https://doi.org/10.48550/arXiv.2303.03363)
 - **Publication Type:** `Preprint`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
