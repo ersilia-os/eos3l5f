@@ -1,6 +1,6 @@
 # CLAMP contrastive molecule pretraining embedding
 
-CLAMP produces 768 features by training a molecule encoder alongside a language encoder, so that structures and the text describing bioassays are mapped into a shared space. Seidl and colleagues used contrastive learning over assay descriptions paired with active compounds, which lets the model address a new activity task from its written description alone, without task-specific retraining. The embedding is intended for downstream modelling, and its dimensions carry no standalone chemical meaning.
+CLAMP is a model trained on molecule-assay pairs, using assay descriptions as text. The current model returns the CLAMP embedding, trained on ChEMBL data. Therefore, contrastive learning is used to learn chemical representations with awareness of a large-scale bioactivity dataset.
 
 This model was incorporated on 2025-08-26.Last packaged on 2026-02-24.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-08-26.Last packaged on 2026-02-24.
 ### Output
 - **Output Dimension:** `768`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** 768 features encoding molecular structure from a contrastive molecule-language model.
+- **Interpretation:** CLAMP embedding of the molecule
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |

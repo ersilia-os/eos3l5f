@@ -2,7 +2,10 @@ Identifier: eos3l5f
 Slug: clamp
 Status: Ready
 Title: CLAMP contrastive molecule pretraining embedding
-Description: CLAMP produces 768 features by training a molecule encoder alongside a language encoder, so that structures and the text describing bioassays are mapped into a shared space. Seidl and colleagues used contrastive learning over assay descriptions paired with active compounds, which lets the model address a new activity task from its written description alone, without task-specific retraining. The embedding is intended for downstream modelling, and its dimensions carry no standalone chemical meaning.
+Description: CLAMP is a model trained on molecule-assay pairs, using assay 
+  descriptions as text. The current model returns the CLAMP embedding, trained 
+  on ChEMBL data. Therefore, contrastive learning is used to learn chemical 
+  representations with awareness of a large-scale bioactivity dataset.
 Deployment:
   - Local
 Source: Local
@@ -16,7 +19,7 @@ Output:
   - Value
 Output Dimension: 768
 Output Consistency: Fixed
-Interpretation: 768 features encoding molecular structure from a contrastive molecule-language model.
+Interpretation: CLAMP embedding of the molecule
 Tag:
   - Embedding
 Biomedical Area:
