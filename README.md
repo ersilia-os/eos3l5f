@@ -1,6 +1,6 @@
 # CLAMP contrastive molecule pretraining embedding
 
-CLAMP produces 768 features by training a molecule encoder alongside a language encoder, so that structures and the text describing bioassays are mapped into a shared space. Seidl and colleagues used contrastive learning over assay descriptions paired with active compounds, which lets the model address a new activity task from its written description alone, without task-specific retraining. The embedding is intended for downstream modelling, and its dimensions carry no standalone chemical meaning.
+CLAMP returns 768 features from a molecule encoder trained jointly with a language encoder, so structures and the text describing bioassays land in one shared space. Seidl and colleagues pretrained it contrastively on PubChem bioactivity, 2.1 million molecules measured across roughly 21,000 assays, which lets a new activity task be addressed from its written description alone with no task-specific retraining. The molecule side consumes an 8192-bit Morgan and descriptor fingerprint, and the embedding is meant to feed downstream models rather than be read dimension by dimension.
 
 This model was incorporated on 2025-08-26.Last packaged on 2026-02-24.
 
