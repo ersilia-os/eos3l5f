@@ -2,13 +2,14 @@ Identifier: eos3l5f
 Slug: clamp
 Status: Ready
 Title: CLAMP contrastive molecule pretraining embedding
-Description: CLAMP returns 768 features from a molecule encoder trained jointly with
-  a language encoder, so structures and the text describing bioassays land in one
-  shared space. Seidl and colleagues pretrained it contrastively on PubChem bioactivity,
-  2.1 million molecules measured across roughly 21,000 assays, which lets a new activity
-  task be addressed from its written description alone with no task-specific retraining.
-  The molecule side consumes an 8192-bit Morgan and descriptor fingerprint, and the
-  embedding is meant to feed downstream models rather than be read dimension by dimension.
+Description: CLAMP returns 768 features from a molecule encoder trained jointly 
+  with a language encoder, so structures and the text describing bioassays land 
+  in one shared space. Seidl and colleagues pretrained it contrastively on 
+  PubChem bioactivity, 2.1 million molecules measured across roughly 21,000 
+  assays, which lets a new activity task be addressed from its written 
+  description alone with no task-specific retraining. The molecule side consumes
+  an 8192-bit Morgan and descriptor fingerprint, and the embedding is meant to 
+  feed downstream models rather than be read dimension by dimension.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 768
 Output Consistency: Fixed
-Interpretation: 768 features encoding molecular structure from a contrastive molecule-language
-  model.
+Interpretation: 768 features encoding molecular structure from a contrastive 
+  molecule-language model.
 Tag:
   - Embedding
 Biomedical Area:
