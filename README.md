@@ -2,7 +2,8 @@
 
 CLAMP returns 768 features from a molecule encoder trained jointly with a language encoder, so structures and the text describing bioassays land in one shared space. Seidl and colleagues pretrained it contrastively on PubChem bioactivity, 2.1 million molecules measured across roughly 21,000 assays, which lets a new activity task be addressed from its written description alone with no task-specific retraining. The molecule side consumes an 8192-bit Morgan and descriptor fingerprint, and the embedding is meant to feed downstream models rather than be read dimension by dimension.
 
-This model was incorporated on 2025-08-26.Last packaged on 2026-02-24.
+This model was incorporated on 2025-08-26.
+Last packaged on 2026-02-24.
 
 ## Information
 ### Identifiers
