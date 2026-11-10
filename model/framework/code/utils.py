@@ -11,8 +11,10 @@ def _ebv_to_numpy(ebv):
 
 def _counts_dict_to_folded_vector(counts, fp_size):
     v = np.zeros(fp_size, dtype=np.float32)
+    # On a bit collision keep the last count (overwrite, do not sum). This matches
+    # mhnreact.molutils.convert_smiles_to_fp, which CLAMP was trained with.
     for k, c in counts.items():
-        v[int(k) % fp_size] += float(c)
+        v[int(k) % fp_size] = float(c)
     return v
 
 
