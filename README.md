@@ -3,7 +3,7 @@
 CLAMP returns 768 features from a molecule encoder trained jointly with a language encoder, so structures and the text describing bioassays land in one shared space. Seidl and colleagues pretrained it contrastively on PubChem bioactivity, 2.1 million molecules measured across roughly 21,000 assays, which lets a new activity task be addressed from its written description alone with no task-specific retraining. The molecule side consumes an 8192-bit Morgan and descriptor fingerprint, and the embedding is meant to feed downstream models rather than be read dimension by dimension.
 
 This model was incorporated on 2025-08-26.
-Last packaged on 2026-11-03.
+Last packaged on 2026-11-10.
 
 ## Information
 ### Identifiers
@@ -51,12 +51,12 @@ _10 of 768 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `167`
 - **Environment Size (Mb):** `665`
-- **Image Size (Mb):** `783.75`
+- **Image Size (Mb):** `373.71`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.76`
-- 100 inputs: `18`
-- 10000 inputs: `73.01`
+- 10 inputs: `26.73`
+- 100 inputs: `17.93`
+- 10000 inputs: `67.87`
 
 ### References
 - **Source Code**: [https://github.com/ml-jku/clamp](https://github.com/ml-jku/clamp)
